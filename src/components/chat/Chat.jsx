@@ -26,7 +26,35 @@ const Chat = () => {
           <img src="./info.png" alt="" />
         </div>
       </div>
-      <div className="center"></div>
+      <div className="center">
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iste nihil dolorum ut ipsa voluptatum in facilis porro aperiam labore! Illum totam odio et eos adipisci iure quis doloribus omnis!</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperset.com%2Fw%2Ffull%2F2%2F6%2F6%2F15300.jpg&f=1&nofb=1&ipt=67f5f58696dbbafcbdab1b66776f6b3e370eefcedc85f9071e1569e6c528a04d&ipo=images" alt="" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iste nihil dolorum ut ipsa voluptatum in facilis porro aperiam labore! Illum totam odio et eos adipisci iure quis doloribus omnis!</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iste nihil dolorum ut ipsa voluptatum in facilis porro aperiam labore! Illum totam odio et eos adipisci iure quis doloribus omnis!</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iste nihil dolorum ut ipsa voluptatum in facilis porro aperiam labore! Illum totam odio et eos adipisci iure quis doloribus omnis!</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+      </div>
       <div className="bottom">
         <div className="icons">
           <img src="./img.png" alt="" />
