@@ -1,3 +1,4 @@
+import Notification from "./components/notification/Notification"
 import Login from "./components/login/Login"
 import Chat from "./components/chat/Chat"
 import Detail from "./components/details/Detail"
@@ -15,8 +16,10 @@ const App = () => {
             <Chat/>
             <Detail/>
           </>
-        ) : (<Login/>)
-      }
+        ) : (
+          <Login/>
+      )}
+      <Notification/>
     </div>
   )
 }
