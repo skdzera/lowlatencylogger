@@ -22,7 +22,6 @@ const Login = () => {
 
   const handleLogin = e => {
     e.preventDefault()
-    toast.warn("Carefull you have been logged")
   }
 
   return (

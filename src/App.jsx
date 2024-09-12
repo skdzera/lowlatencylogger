@@ -5,7 +5,7 @@ import Detail from "./components/details/Detail"
 import List from "./components/list/List"
 
 const App = () => {
-  const user = false
+  const user = true
 
   return (
     <div className='container'>
