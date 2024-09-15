@@ -1,5 +1,9 @@
 .addUser {
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   padding: 30px;
   background-color: rgba(17, 25, 40, 0.897);
@@ -10,54 +14,54 @@
   left: 0;
   right: 0;
   margin: auto;
+}
 
-  form {
-    display: flex;
-    gap: 20px;
+.addUser form {
+  display: flex;
+  gap: 20px;
+}
 
-    input {
-      padding: 20px;
-      border-radius: 10px;
-      border: none;
-      outline: none;
-    }
+.addUser form input {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
 
-    button {
-      padding: 20px;
-      border-radius: 10px;
-      background-color: #1a73e8;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  }
+.addUser form button {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
-  .user {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.addUser .user {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-    .detail {
-      display: flex;
-      align-items: center;
-      gap: 20px;
+.addUser .user .detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
-      img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        object-fit: cover;
-      }
-    }
+.addUser .user .detail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
-    button {
-      padding: 10px;
-      border-radius: 10px;
-      background-color: #1a73e8;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  }
+.addUser .user button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
