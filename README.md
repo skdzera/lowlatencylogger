@@ -1,3 +1,3 @@
-# Lama Dev Chat App Starter template
+# This is a basically a chat-App using React and real-time database with Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
